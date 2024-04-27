@@ -10,6 +10,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.get("/", (req, res) => res.send("Express on Vercel"));
 app.use("/api", authRouter);
 app.use("/api", productsRouter);
 
