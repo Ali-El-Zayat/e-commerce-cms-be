@@ -5,6 +5,7 @@
   "author": "Ali El-Zayat <alielzayat07@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "node --env-file=.env index.js",
     "dev": "nodemon --quiet --env-file=.env index.js",
     "swagger": "node ./swagger.js"
   },
@@ -15,6 +16,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.2",
     "swagger-autogen": "^2.23.7",
-    "swagger-ui-express": "^5.0.0"
+    "swagger-ui-express": "^5.0.0",
+    "vercel": "^34.1.3"
   }
 }
