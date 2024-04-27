@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-cms-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ali El-Zayat <alielzayat07@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --quiet --env-file=.env index.js",
+    "swagger": "node ./swagger.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
